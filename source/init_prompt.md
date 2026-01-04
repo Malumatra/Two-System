@@ -42,7 +42,7 @@ needs to be built.
 ```
 
 **Requirements for feature_list.json:**
-- Minimum 200 features total with testing steps for each
+- Minimum 50 features total with testing steps for each
 - Both "functional" and "style" categories
 - Mix of narrow tests (2-5 steps) and comprehensive tests (10+ steps)
 - At least 25 tests MUST have 10+ steps each
