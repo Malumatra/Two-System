@@ -1,52 +1,76 @@
 ```
-# Dependencies
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-*.py~
-*.py.class
-*.py.backup
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+*.class
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+julia-*/
+zig*/
+
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
-*.tmp
-*.log
-*.env
-*.env.local
+
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# IDE
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
