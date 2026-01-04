@@ -177,7 +177,7 @@ Don't use the puppeteer "active tab" tool.
 
 ## IMPORTANT REMINDERS
 
-**Your Goal:** Production-quality application with all 200+ tests passing
+**Your Goal:** Production-quality application with all 50+ tests passing
 
 **This Session's Goal:** Complete at least one feature perfectly
 
