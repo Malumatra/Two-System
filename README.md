@@ -2,7 +2,7 @@
 
 1. Core Architecture: The Two-Agent System
 
-The system must support two distinct agent "modes" or "personas" with unique system prompts and responsibilities.
+The system must support two distinct agent "modes" or "personas" with unique system prompts and responsibilities. It is being built for a locally run small 20B parameter LLM, so everything must be spoon-fed to it for it to run efficiently. The system prompts must be carefully crafted to accommodate the locally run LM Studio model. 
 
 Initializer Agent Mode:
 
