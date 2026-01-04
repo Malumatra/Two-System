@@ -1,7 +1,7 @@
 langchain==0.2.16
 langchain-openai==0.1.25
 langgraph==0.2.15
-langchain-core==0.2.36
+langchain-core==0.2.40
 gitpython==3.1.41
-pydantic==2.6.4
-typing-extensions==4.10.0
+pydantic==2.7.4
+typing-extensions>=4.11
